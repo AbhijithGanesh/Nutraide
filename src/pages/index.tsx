@@ -8,7 +8,7 @@ const ComingSoonPage: React.FC = () => {
   return (
     <div className="bg-gray-900 min-h-screen flex justify-center items-center">
       <div className="max-w-lg mx-auto p-8 bg-gray-800 rounded-lg shadow-xl">
-        <h1 className="text-4xl font-black mb-4 text-gray-100">NutriClient App</h1>
+        <h1 className="text-4xl font-black mb-4 text-gray-100">NutriLicious App</h1>
         <p className="text-gray-300 text-xl mb-8">
           We're working to make this App to come to life! Stay tuned!
         </p>
