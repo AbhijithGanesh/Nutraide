@@ -23,6 +23,19 @@ We have trained the model using a collection of data that has the following feat
 These features will be used by the multi-variable linear regression model to predict the daily nutritional requirements of the patient. This data has been sourced from health facilities in Chennai and has been verified by several health experts in
 Chennai.
 
+## Round 1 updates
+
+- [x] Implememnted the ML Model using [PyTorch](https://pytorch.org/)
+- [x] Implemented [FastAPI](https://fastapi.tiangolo.com/) for the intermediate API
+- [x] Implemented a [descriptive UI](https://nutriai-url.vercel.app/) using NextJS
+- [x] Started development a more enhanced [UI](https://nutri-client.vercel.app/)
+
+## Planned Items
+
+- [] Implement a [Nhost](https://nhost.io/) database and authentication on [Google Cloud's Container Orchestration](https://cloud.google.com/kubernetes-engine)
+- [] Implement Authentication with Google and GitHub
+- [] Make a [Progressive Web App](https://web.dev/pwa) to increase accessibility
+
 ## Tech Stack
 
 - [React](https://reactjs.org/)
