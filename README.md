@@ -34,11 +34,22 @@ We've gathered data from reputable medical centres in Chennai to make sure nutri
 - [x] Implemented a [descriptive UI](https://nutriai-url.vercel.app/) using NextJS
 - [x] Started development a more [enhanced UI](https://nutraide.vercel.app/)
 
+### Used Resources
+
+- [GCP Storage](https://cloud.google.com/storage)
+- [GCP AMD Instances for training our model](https://cloud.google.com/compute)
+- [GCP Cloud Functions for our API](https://cloud.google.com/functions)
+
 ## Planned Items
 
 - [ ] Implement a [Nhost](https://nhost.io/) database and authentication on [Google Cloud's Container Orchestration](https://cloud.google.com/kubernetes-engine)
 - [ ] Implement Authentication with Google and GitHub
 - [ ] Make a [Progressive Web App](https://web.dev/pwa) to increase accessibility
+
+### Proposed Resources
+
+- [Cloud Run](https://cloud.google.com/run)
+- [Verex AI](https://vercel.com/ai)
 
 ## Tech Stack
 
