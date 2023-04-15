@@ -36,8 +36,8 @@ const AuthComponent = (): JSX.Element => {
                         e.preventDefault();
                         supabase.auth
                             .signInWithPassword({
-                                email: email,
-                                password: password,
+                                email: email!,
+                                password: password!,
                             })
                             .then((data: any) => {
                                 alert("You've logged in!")
