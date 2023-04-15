@@ -20,10 +20,10 @@ We have trained the model using a collection of data that has the following feat
 - Sodium
 - Potassium
 
-These features will be used by our state-of-the art custom model NeutriNet to predict the daily nutritional requirements of the patient. This data has been sourced from health facilities in Chennai and has been verified by several health experts in
+These features will be used by our state-of-the art custom model nutriNet to predict the daily nutritional requirements of the patient. This data has been sourced from health facilities in Chennai and has been verified by several health experts in
 Chennai. Through this project, we aim to provide a platform for doctors, dieticians, and patients to calculate daily nutritional requirements, and provide personalized nutrition recommendations.
 
-We've gathered data from reputable medical centres in Chennai to make sure NeutriNet delivers accurate and trustworthy nutritional data. To guarantee that it satisfies the necessary criteria for accuracy and dependability, this data has undergone a thorough review by a group of knowledgeable health professionals. We can offer our users a comprehensive platform for calculating their daily nutritional needs and getting personalised recommendations that are suited to their particular health goals by utilising this data.
+We've gathered data from reputable medical centres in Chennai to make sure nutriNet delivers accurate and trustworthy nutritional data. To guarantee that it satisfies the necessary criteria for accuracy and dependability, this data has undergone a thorough review by a group of knowledgeable health professionals. We can offer our users a comprehensive platform for calculating their daily nutritional needs and getting personalised recommendations that are suited to their particular health goals by utilising this data.
 
 ## Round 1 updates
 
