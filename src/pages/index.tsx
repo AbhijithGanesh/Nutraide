@@ -13,13 +13,13 @@ const ComingSoonPage: React.FC = () => {
           We're working to make this App to come to life! Stay tuned!
         </p>
         <div className="flex flex-1 space-x-4">
-          <div className="rounded-full h-12 w-12 flex items-center justify-center bg-gray-700">
-            <AiFillGithub className="text-white text-4xl hover:translate-x-2"/>
+          <div className="rounded-full h-12 w-12 flex items-center justify-center bg-gray-700 hover:translate-y-2">
+            <AiFillGithub className="text-white text-4xl"/>
           </div>
-          <div className="rounded-full h-12 w-12 flex items-center justify-center bg-gray-700">
+          <a className="rounded-full h-12 w-12 flex items-center justify-center bg-gray-700 hover:translate-y-2" href="/login">
             <CiLogin className="text-white text-4xl" />
-          </div>
-          <div className="rounded-full h-12 w-12 flex items-center justify-center bg-gray-700">
+          </a>
+          <div className="rounded-full h-12 w-12 flex items-center justify-center bg-gray-700 hover:translate-y-2">
             <TbApi className="text-white text-4xl" />
           </div>
         </div>

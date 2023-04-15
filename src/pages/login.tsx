@@ -7,38 +7,44 @@ import { TfiTwitter } from "react-icons/tfi";
 import { VscGithubAlt } from "react-icons/vsc";
 
 const AuthComponent = (): JSX.Element => {
-
     const [email, setEmail] = useState<string>();
     const [password, setPassword] = useState<string>();
     const [authState, setAuthState] = useState<any>();
-
-    async () => {
-        const { data, error } = await supabase.auth.getSession()
-        setAuthState(data?.session)
-    }
-
-    console.log(authState);
 
     return (
         <>
             <section className="flex flex-col gap-2 w-full">
                 <section className="text-md font-normal">Login</section>
                 <input
-                    className="p-2 border border-gray-300 rounded-md font-medium"
+                    className="p-2 border border-gray-300 rounded-md font-medium text-black"
                     type="email"
                     placeholder="BeNutrious@healthy.com"
-                    onChange={(e: any) => setEmail(e.target.value)}
+                    onChange={(e: React.ChangeEvent<HTMLInputElement>) => setEmail(e.target.value)}
                 />
                 <input
-                    className="p-2 border border-gray-300 rounded-md font-medium"
+                    className="p-2 border border-gray-300 rounded-md font-medium text-black"
                     type="password"
                     placeholder="*******"
-                    onChange={(e: any) => setPassword(e.target.value)}
+                    onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPassword(e.target.value)}
                 />
                 <section className="flex flex-1 gap-2 justify-end">
                     <section className="text-base">Forgot your password?</section>
                 </section>
-                <button className="p-2 bg-base text-white rounded-md font-medium">
+                <button
+                    className="p-2 bg-base text-white rounded-md font-medium"
+                    onClick={(e: any) => {
+                        e.preventDefault();
+                        supabase.auth
+                            .signInWithPassword({
+                                email: email,
+                                password: password,
+                            })
+                            .then((data: any) => {
+                                alert("You've logged in!")
+                                console.log(data);
+                            });
+                    }}
+                >
                     <section className="flex justify-center items-center gap-2">
                         <AiOutlineLogin />
                         <section>Login</section>
@@ -55,20 +61,10 @@ const AuthComponent = (): JSX.Element => {
                     </section>
                 </section>
                 <section className="text-center font-normal border-2 border-bg-black rounded-md p-1 hover:translate-x-2">
-                    <button className="flex items-center justify-center gap-2" onClick={
-                        () => {
-                            supabase.auth.signInWithOtp({
-                                email: 'Abhijith.Ganesh@outlook.com',
-                            }).then(
-                                (data: any) => {
-                                    console.log(data)
-                                }
-                            )
-                        }
-                    }>
+                    <section className="flex items-center justify-center gap-2">
                         <TfiTwitter className="text-2xl" />
                         Login with Twitter
-                    </button>
+                    </section>
                 </section>
             </section>
         </>
@@ -78,9 +74,11 @@ const AuthComponent = (): JSX.Element => {
 const LoginComponent = (): JSX.Element => {
     return (
         <>
-            <section className="flex items-center justify-center pt-32">
-                <section className="flex flex-col items-center gap-4 font-semibold w-1/3">
-                    <AuthComponent />
+            <section className="bg-gray-900 text-white h-screen">
+                <section className="flex items-center justify-center pt-32">
+                    <section className="flex flex-col items-center gap-4 font-semibold w-1/3">
+                        <AuthComponent />
+                    </section>
                 </section>
             </section>
         </>
