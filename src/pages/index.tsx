@@ -1,6 +1,6 @@
 import React from 'react';
-import { AiFillGithub } from "react-icons/ai"
-import { CiLogin } from "react-icons/ci"
+import { AiFillGithub,AiOutlineHeart } from "react-icons/ai"
+import { CiLogin, CiStethoscope } from "react-icons/ci"
 import { TbApi } from "react-icons/tb"
 import { GiHealthPotion } from "react-icons/gi"
 
@@ -27,6 +27,9 @@ const ComingSoonPage: React.FC = () => {
           </a>
           <a className="rounded-full h-12 w-12 flex items-center justify-center bg-gray-700 hover:translate-y-2" href="https://nutriai-url.vercel.app/" target='__blank'>
             <GiHealthPotion className="text-white text-4xl" />
+          </a>
+          <a className="rounded-full h-12 w-12 flex items-center justify-center bg-gray-700 hover:translate-y-2" href="/form" target='__blank'>
+            <CiStethoscope className="text-white text-4xl" />
           </a>
         </div>
         <p className="text-gray-300 text-sm mt-8">&copy; {currentDate.getFullYear()} Team Squiggly Kraken.</p>
