@@ -12,6 +12,7 @@ const ComingSoonPage: React.FC = () => {
         <h1 className="text-4xl font-black mb-4 text-gray-100">Nutraide App</h1>
         <p className="text-gray-300 text-xl mb-8">
           We're working to make this App to come to life! Stay tuned 🚀🌟
+          Click on the health potion to try the calculator out!
         </p>
         <div className="flex flex-1 space-x-4">
           <a className="rounded-full h-12 w-12 flex items-center justify-center bg-gray-700 hover:translate-y-2" href="https://github.com/AbhijithGanesh/Nutraide.git" target='__blank'>
@@ -25,11 +26,11 @@ const ComingSoonPage: React.FC = () => {
           </div>
           <a className="rounded-full h-12 w-12 flex items-center justify-center bg-gray-700 hover:translate-y-2" href="https://nutriai-url.vercel.app/" target='__blank'>
             <GiHealthPotion className="text-white text-4xl" />
-        </a>
+          </a>
+        </div>
+        <p className="text-gray-300 text-sm mt-8">&copy; {currentDate.getFullYear()} Team Squiggly Kraken.</p>
+        <p className="text-gray-300 text-xs my-0">Abhijith G, Jesher Joshua, Jaskaran Walia and Sree Dananjay</p>
       </div>
-      <p className="text-gray-300 text-sm mt-8">&copy; {currentDate.getFullYear()} Team Squiggly Kraken.</p>
-      <p className="text-gray-300 text-xs my-0">Abhijith G, Jesher Joshua, Jaskaran Walia and Sree Dananjay</p>
-    </div>
     </div >
   );
 };
