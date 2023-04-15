@@ -13,7 +13,7 @@ const ComingSoonPage: React.FC = () => {
           We're working to make this App to come to life! Stay tuned 🚀🌟 
         </p>
         <div className="flex flex-1 space-x-4">
-          <a className="rounded-full h-12 w-12 flex items-center justify-center bg-gray-700 hover:translate-y-2" href="https://github.com/AbhijithGanesh/NutriClient" target='__blank'>
+          <a className="rounded-full h-12 w-12 flex items-center justify-center bg-gray-700 hover:translate-y-2" href="https://github.com/AbhijithGanesh/Nutraide.git" target='__blank'>
             <AiFillGithub className="text-white text-4xl"/>
           </a>
           <a className="rounded-full h-12 w-12 flex items-center justify-center bg-gray-700 hover:translate-y-2" href="/login">
