@@ -3,20 +3,8 @@ import { RedocStandalone } from "redoc";
 const APIDefinition = (): JSX.Element => {
   let openapi_schema: any = {
     openapi: "3.0.2",
-    info: { title: "FastAPI", version: "0.1.0" },
+    info: { title: "Nutraide", version: "0.9.0" },
     paths: {
-      "/": {
-        get: {
-          summary: "Root",
-          operationId: "root__get",
-          responses: {
-            "200": {
-              description: "Successful Response",
-              content: { "application/json": { schema: {} } },
-            },
-          },
-        },
-      },
       "/api/model": {
         post: {
           summary: "Predict Model",
