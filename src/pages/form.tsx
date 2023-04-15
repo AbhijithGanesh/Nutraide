@@ -43,12 +43,14 @@ const ExampleForm: React.FC = () => {
   const submitForm = async (formData: FormData) => {
     try {
       const response = await fetch(
-        "https://us-central1-augmented-axe-380213.cloudfunctions.net",
+        "https://us-central1-augmented-axe-380213.cloudfunctions.net/nutriai",
         {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
-            "Access-Control-Allow-Origin": "*"
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers":"Origin, X-Requested-With, Content-Type, Accept",
+            "Access-Control-Allow-Methods":"GET, POST"
           },
           body: JSON.stringify(formData),
         }
@@ -81,7 +83,7 @@ const ExampleForm: React.FC = () => {
             name="patient_gender"
             className="form-select block w-full px-4 py-2 rounded-lg bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
             onChange={handleChange}
-            value={formData.patient_gender+"/female"}
+            value={formData.patient_gender}
           >
           </input>
         </section>

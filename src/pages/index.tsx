@@ -9,13 +9,13 @@ const ComingSoonPage: React.FC = () => {
   return (
     <div className="bg-gray-900 min-h-screen flex justify-center items-center p-2">
       <div className="max-w-lg mx-auto p-4 bg-gray-800 rounded-lg shadow-xl">
-        <h1 className="text-4xl font-black mb-4 text-gray-100">Nutraide App</h1>
+        <h1 className="text-4xl font-black mb-4 text-gray-100">Nutr-AI-de App</h1>
         <p className="text-gray-300 text-xl mb-8">
           We're working to make this App to come to life! Stay tuned 🚀🌟
           <br/>
           <section className="text-sm">Click on the health potion to try the calculator out!</section>
         </p>
-        <div className="flex flex-1 space-x-4">
+        <div className="flex flex-1 justify-center space-x-4">
           <a className="rounded-full h-12 w-12 flex items-center justify-center bg-gray-700 hover:translate-y-2" href="https://github.com/AbhijithGanesh/Nutraide.git" target='__blank'>
             <AiFillGithub className="text-white text-4xl" />
           </a>
