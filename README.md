@@ -39,6 +39,7 @@ We've gathered data from reputable medical centres in Chennai to make sure nutri
 - [GCP Storage](https://cloud.google.com/storage)
 - [GCP AMD Instances for training our model](https://cloud.google.com/compute)
 - [GCP Cloud Functions for our API](https://cloud.google.com/functions)
+- [GCP Cloud Run](https://cloud.google.com/run)
 
 ## Planned Items
 
@@ -48,7 +49,6 @@ We've gathered data from reputable medical centres in Chennai to make sure nutri
 
 ### Proposed Resources
 
-- [Cloud Run](https://cloud.google.com/run)
 - [Verex AI](https://vercel.com/ai)
 
 ## Tech Stack
