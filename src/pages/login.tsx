@@ -1,6 +1,7 @@
 import supabase from "@/supabase/profile";
 import { Auth } from "@supabase/ui";
 import { useState } from "react";
+import { BsGoogle } from "react-icons/bs";
 import { AiOutlineLogin } from "react-icons/ai";
 import { CiMail } from "react-icons/ci";
 import { TfiTwitter } from "react-icons/tfi";
@@ -54,6 +55,12 @@ const AuthComponent = (): JSX.Element => {
                     Don't have an account? Sign up
                 </section>
                 <section className="h-0.5 bg-gray-200" />
+                <section className="text-center font-normal border-2 border-bg-black rounded-md p-1 hover:translate-x-2">
+                    <section className="flex items-center justify-center gap-2">
+                        <BsGoogle className="text-2xl" />
+                        Login with Google
+                    </section>
+                </section>
                 <section className="text-center font-normal border-2 border-bg-black rounded-md p-1 hover:translate-x-2">
                     <section className="flex items-center justify-center gap-2">
                         <VscGithubAlt className="text-2xl" />

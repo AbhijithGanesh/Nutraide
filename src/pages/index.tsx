@@ -13,9 +13,9 @@ const ComingSoonPage: React.FC = () => {
           We're working to make this App to come to life! Stay tuned 🚀🌟 
         </p>
         <div className="flex flex-1 space-x-4">
-          <div className="rounded-full h-12 w-12 flex items-center justify-center bg-gray-700 hover:translate-y-2">
+          <a className="rounded-full h-12 w-12 flex items-center justify-center bg-gray-700 hover:translate-y-2" href="https://github.com/AbhijithGanesh/NutriClient" target='__blank'>
             <AiFillGithub className="text-white text-4xl"/>
-          </div>
+          </a>
           <a className="rounded-full h-12 w-12 flex items-center justify-center bg-gray-700 hover:translate-y-2" href="/login">
             <CiLogin className="text-white text-4xl" />
           </a>
@@ -23,7 +23,8 @@ const ComingSoonPage: React.FC = () => {
             <TbApi className="text-white text-4xl" />
           </div>
         </div>
-        <p className="text-gray-300 text-sm mt-8">&copy; {currentDate.getFullYear()} Team Scout Sentinels .</p>
+        <p className="text-gray-300 text-sm mt-8">&copy; {currentDate.getFullYear()} Team Scout Sentinels.</p>
+        <p className="text-gray-300 text-xs my-0">Abhijith G, Jesher Joshua, Jaskaran Walia and Sree Dananjay</p>
       </div>
     </div>
   );
