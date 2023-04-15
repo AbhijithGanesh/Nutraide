@@ -1,6 +1,6 @@
 # Nutraide - Solving for India Challenge
 
-![image](https://user-images.githubusercontent.com/67182544/232193377-c03aff3e-abac-444f-bb7f-ecba4fadce8c.png)
+![image](https://user-images.githubusercontent.com/67182544/232193401-be28f435-f0f6-4fb7-8dc4-05f1c486a352.png)
 
 The Solving for India Challenge is a 3-month long challenge to solve for India's most pressing problems. The challenge is open to all, and is a great opportunity to learn, build, and contribute to India's growth.
 
