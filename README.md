@@ -30,7 +30,7 @@ We've gathered data from reputable medical centres in Chennai to make sure nutri
 - [x] Implememnted the ML Model using [PyTorch](https://pytorch.org/)
 - [x] Implemented [FastAPI](https://fastapi.tiangolo.com/) for the intermediate API
 - [x] Implemented a [descriptive UI](https://nutriai-url.vercel.app/) using NextJS
-- [x] Started development a more enhanced [UI](https://nutri-client.vercel.app/)
+- [x] Started development a more enhanced [UI](https://nutraide.vercel.app/)
 
 ## Planned Items
 
