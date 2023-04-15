@@ -32,9 +32,9 @@ Chennai.
 
 ## Planned Items
 
-- [] Implement a [Nhost](https://nhost.io/) database and authentication on [Google Cloud's Container Orchestration](https://cloud.google.com/kubernetes-engine)
-- [] Implement Authentication with Google and GitHub
-- [] Make a [Progressive Web App](https://web.dev/pwa) to increase accessibility
+- [ ] Implement a [Nhost](https://nhost.io/) database and authentication on [Google Cloud's Container Orchestration](https://cloud.google.com/kubernetes-engine)
+- [ ] Implement Authentication with Google and GitHub
+- [ ] Make a [Progressive Web App](https://web.dev/pwa) to increase accessibility
 
 ## Tech Stack
 
