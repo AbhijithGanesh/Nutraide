@@ -22,9 +22,9 @@ const ComingSoonPage: React.FC = () => {
           <a className="rounded-full h-12 w-12 flex items-center justify-center bg-gray-700 hover:translate-y-2" href="/login">
             <CiLogin className="text-white text-4xl" />
           </a>
-          <div className="rounded-full h-12 w-12 flex items-center justify-center bg-gray-700 hover:translate-y-2">
+          <a className="rounded-full h-12 w-12 flex items-center justify-center bg-gray-700 hover:translate-y-2" href='/docs' target='__blank'>
             <TbApi className="text-white text-4xl" />
-          </div>
+          </a>
           <a className="rounded-full h-12 w-12 flex items-center justify-center bg-gray-700 hover:translate-y-2" href="https://nutriai-url.vercel.app/" target='__blank'>
             <GiHealthPotion className="text-white text-4xl" />
           </a>
