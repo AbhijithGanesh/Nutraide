@@ -23,7 +23,7 @@ const ComingSoonPage: React.FC = () => {
             <TbApi className="text-white text-4xl" />
           </div>
         </div>
-        <p className="text-gray-300 text-sm mt-8">&copy; {currentDate.getFullYear()} Team Scout Sentinels.</p>
+        <p className="text-gray-300 text-sm mt-8">&copy; {currentDate.getFullYear()} Team Squiggly Kraken.</p>
         <p className="text-gray-300 text-xs my-0">Abhijith G, Jesher Joshua, Jaskaran Walia and Sree Dananjay</p>
       </div>
     </div>
