@@ -7,7 +7,7 @@ import { GiHealthPotion } from "react-icons/gi"
 const ComingSoonPage: React.FC = () => {
   const currentDate = new Date();
   return (
-    <div className="bg-gray-900 min-h-screen flex justify-center items-center">
+    <div className="bg-gray-900 min-h-screen flex justify-center items-center p-2">
       <div className="max-w-lg mx-auto p-8 bg-gray-800 rounded-lg shadow-xl">
         <h1 className="text-4xl font-black mb-4 text-gray-100">Nutraide App</h1>
         <p className="text-gray-300 text-xl mb-8">
