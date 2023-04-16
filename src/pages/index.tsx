@@ -42,7 +42,7 @@ const ComingSoonPage: React.FC = () => {
           </a>
           <a
             className="rounded-full h-12 w-12 flex items-center justify-center bg-gray-700 hover:translate-y-2"
-            href="/form"
+            href="/calculator"
             target="__blank"
           >
             <GiRunningNinja className="text-white text-4xl" />

@@ -76,7 +76,8 @@ const PatientDetailForm: React.FC = () => {
     sodium: 0,
   });
 
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const [loaded, setLoaded] = useState<boolean>(false);
 
   function closeModal() {
     setIsOpen(false);
@@ -102,6 +103,7 @@ const PatientDetailForm: React.FC = () => {
         formData
       );
       setResponseData(response.data);
+      setLoaded(true);
     } catch (error: any) {
       alert(error);
       console.error(error?.message);
@@ -332,7 +334,9 @@ const PatientDetailForm: React.FC = () => {
             onClick={openModal}
             className="px-6 py-2 bg-[#E5E7EB] w-full p-12 hover:translate-y-1 rounded-lg text-black font-semibold hover:bg-slate-300 focus:bg-gray-800 focus:outline-none"
           >
-            Open Predictions
+            {
+            loaded ? "Open Results💡" : "I am Empty 🤷‍♂️"
+            }
           </button>
         </section>
       </form>
@@ -395,7 +399,7 @@ const PatientDetailForm: React.FC = () => {
                         title="Protein"
                         value={responseData.pro}
                       />
-                      
+
                       <DialogueItem
                         icon={<GiPill className="text-3xl" />}
                         title="Salt (Sodium) "
@@ -403,14 +407,14 @@ const PatientDetailForm: React.FC = () => {
                       />
                     </section>
                     <section className="mt-4">
-                    <button
-                      type="button"
-                      className="inline-flex w-full justify-center rounded-md border border-transparent bg-slate-400 px-4 py-2 text-md font-normal text-white  hover:bg-slate-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
-                      onClick={closeModal}
-                    >
-                      I shall follow this! Thank you 💡
-                    </button>
-                  </section>
+                      <button
+                        type="button"
+                        className="inline-flex w-full justify-center rounded-md border border-transparent bg-slate-400 px-4 py-2 text-md font-normal text-white  hover:bg-slate-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                        onClick={closeModal}
+                      >
+                        I shall follow this! Thank you 💡
+                      </button>
+                    </section>
                   </section>
                 </Dialog.Panel>
               </Transition.Child>
