@@ -335,7 +335,7 @@ const PatientDetailForm: React.FC = () => {
             className="px-6 py-2 bg-[#E5E7EB] w-full p-12 hover:translate-y-1 rounded-lg text-black font-semibold hover:bg-slate-300 focus:bg-gray-800 focus:outline-none"
           >
             {
-            loaded ? "Open Results💡" : "I am Empty 🤷‍♂️"
+            loaded ? "Open Results💡" : "I am Empty 🤷‍♂️ I will load if you submit"
             }
           </button>
         </section>
