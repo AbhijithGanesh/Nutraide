@@ -49,7 +49,7 @@ We've gathered data from reputable medical centres in Chennai to make sure nutri
 
 ### Proposed Resources
 
-- [Verex AI](https://vercel.com/ai)
+- [Vertex AI](https://vercel.com/ai)
 
 ## Tech Stack
 
